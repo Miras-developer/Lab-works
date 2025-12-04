@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Добавить студента</title>
+</head>
+<body>
+  <h2>Добавить студента</h2>
+  <form action="insert.php" method="post">
+    <label>ФИО:</label><br>
+    <input type="text" name="fullname" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Группа:</label><br>
+    <input type="text" name="group_name"><br><br>
+
+    <button type="submit">Добавить</button>
+  </form>
+
+  <p><a href="list.php">Посмотреть список студентов</a></p>
+</body>
+</html>
